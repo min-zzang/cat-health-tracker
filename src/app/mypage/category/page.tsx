@@ -50,7 +50,7 @@ export default function Category() {
             <input
               type="text"
               value={newCategory}
-              // required
+              // required 나중에 구현
               onChange={(e) => setNewCategory(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") handleAddCategory();
